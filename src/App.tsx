@@ -1411,7 +1411,7 @@ export default function App() {
           <div className="grid lg:grid-cols-12 gap-12 lg:gap-8 mb-20">
             <div className="lg:col-span-5">
               <div className="flex items-center gap-2 mb-8">
-                <img src="/images/logo.png" alt="사람사랑유학원" className="h-12 w-auto brightness-0 invert" />
+                <img src="/images/logo2.png" alt="사람사랑유학원" className="h-12 w-auto" />
               </div>
               <p className="text-white/50 max-w-sm mb-10 leading-relaxed text-sm">
                 영국식 학업 수행을 준비하는 학생을 위한 소수 정예 튜토리얼. 
