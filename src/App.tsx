@@ -611,7 +611,7 @@ export default function App() {
       <nav className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-brand-light/90 backdrop-blur-md border-b border-brand-light/50' : 'bg-white/80 backdrop-blur-md border-b border-gray-100'}`}>
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="https://ais-dev-2mshiyujbktiol5ii3cwoa-242946353835.asia-northeast1.run.app/logo.png" alt="사람사랑유학원" className="h-12 w-auto" referrerPolicy="no-referrer" />
+            <img src="/images/logo.png" alt="사람사랑유학원" className="h-12 w-auto" />
           </div>
           
           <div className="hidden md:flex items-center gap-8">
@@ -733,12 +733,12 @@ export default function App() {
               <div className="relative z-20 group">
                 <div className="absolute -inset-4 bg-brand/5 rounded-[60px] blur-2xl group-hover:bg-brand/10 transition-colors duration-500" />
                 <div className="relative rounded-[50px] overflow-hidden shadow-2xl border-8 border-white">
-                  <img 
-                    src="https://images.unsplash.com/photo-1541339907198-e08756ebafe3?q=80&w=2070&auto=format&fit=crop" 
-                    alt="Oxford University Architecture" 
-                    className="w-full h-[580px] object-cover group-hover:scale-105 transition-transform duration-1000"
-                    referrerPolicy="no-referrer"
-                  />
+                  <img
+      src="/images/hero.jpg"
+      alt="Oxford University Architecture"
+      className="w-full h-[580px] object-cover group-hover:scale-105 transition-transform duration-1000"
+      referrerPolicy="no-referrer"
+      />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60" />
                 </div>
               </div>
@@ -1232,12 +1232,12 @@ export default function App() {
               <div className="relative group">
                 <div className="absolute -inset-4 bg-brand/5 rounded-[40px] blur-2xl group-hover:bg-brand/10 transition-colors duration-500" />
                 <div className="relative rounded-[32px] overflow-hidden shadow-2xl border-4 border-white bg-gray-50 aspect-[4/5]">
-                  <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&h=750&auto=format&fit=crop" 
-                    alt="Mentor Kim Euntaek" 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
-                    referrerPolicy="no-referrer"
-                  />
+                  <img
+      src="/images/mentor.jpg"
+      alt="김은택"
+      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
+      referrerPolicy="no-referrer"
+    />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 </div>
                 
@@ -1411,7 +1411,7 @@ export default function App() {
           <div className="grid lg:grid-cols-12 gap-12 lg:gap-8 mb-20">
             <div className="lg:col-span-5">
               <div className="flex items-center gap-2 mb-8">
-                <img src="https://ais-dev-2mshiyujbktiol5ii3cwoa-242946353835.asia-northeast1.run.app/logo.png" alt="사람사랑유학원" className="h-12 w-auto brightness-0 invert" referrerPolicy="no-referrer" />
+                <img src="/images/logo.png" alt="사람사랑유학원" className="h-12 w-auto brightness-0 invert" />
               </div>
               <p className="text-white/50 max-w-sm mb-10 leading-relaxed text-sm">
                 영국식 학업 수행을 준비하는 학생을 위한 소수 정예 튜토리얼. 
